@@ -1,0 +1,9 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - SECRET_KEY=${SECRET_KEY:-change-me-in-production-use-a-strong-random-secret}
+    restart: unless-stopped

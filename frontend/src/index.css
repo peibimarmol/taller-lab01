@@ -1,0 +1,68 @@
+/* FlowOps – design system tokens */
+:root {
+  --color-primary: #111827;
+  --color-secondary: #ffedd5;
+  --color-tertiary: #e0e7ff;
+  --color-neutral: #ffffff;
+  --color-background: #ffffff;
+  --color-surface: #e5e7eb;
+  --color-text-primary: #6b7280;
+  --color-text-secondary: #111827;
+  --color-border: #ffffff;
+  --color-accent: #111827;
+
+  --radius-md: 4px;
+  --radius-card: 32px;
+  --radius-full: 9999px;
+
+  --shadow-card:
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.06) 0px 1px 1px -0.5px,
+    rgba(0, 0, 0, 0.06) 0px 3px 3px -1.5px,
+    rgba(0, 0, 0, 0.06) 0px 6px 6px -3px,
+    rgba(0, 0, 0, 0.06) 0px 12px 12px -6px,
+    rgba(0, 0, 0, 0.06) 0px 24px 24px -12px;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 22.75px;
+  font-weight: 300;
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-background);
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+a {
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+input {
+  font-family: 'Inter', sans-serif;
+}
